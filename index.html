@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Todo app</title>
+
+</head>
+
+<body>
+
+  <div class="conteiner"><img src="images/bg-desktop-dark.jpg" alt="">
+    <div class="text-div">
+      <h1 class="titulo">T a s k - L i s t</h1>
+      <div>
+        <button id="botao"></button>
+        <input type="text" name="" id="input-task">
+      </div>
+      <ul class="lista-pai">
+        <div class="lista-filho">
+          <input type="checkbox" name="" id="" class="checkbox">
+          <li class="li">Teste</li>
+          <span class="remove">X</span>
+        </div>
+        <div class="lista-filho">
+          <input type="checkbox" name="" id="" class="checkbox">
+          <li class="li">Teste</li>
+          <span class="remove">X</span>
+        </div>
+        
+      </ul>
+      <footer>
+        <span id="itensLeft">Itens Restantes</span>
+        <span id = "options">
+          <a href="#" id="all" class="filter" >Todos</a>
+          <a href="#" id="active" class="filter" >Ativos</a>
+          <a href="#" id="completed" class="filter">Completos</a>
+      </span>
+        <a href="#">Remover Completos</a>
+      </footer>
+    </div>
+    <div class="credits">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Gabriel Lara</a>.
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
