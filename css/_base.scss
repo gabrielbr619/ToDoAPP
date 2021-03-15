@@ -1,7 +1,7 @@
 $Very_Dark_Blue:hsl(235, 21%, 11%);
 $Very_Dark_Desaturated_Blue: hsl(235, 24%, 19%);
 $Very_Dark_Grayish_Blue: hsl(237, 14%, 26%);
-$Very_Dark_Grayish_Blue2: hsl(233, 14%, 35%);
+$Very_Less_Dark_Grayish_Blue: hsl(233, 14%, 35%);
 $linear-gradient: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 $Bright_Blue:hsl(220, 98%, 61%);
 
@@ -65,88 +65,8 @@ $Bright_Blue:hsl(220, 98%, 61%);
         }
 
         }
-        #input-task{
-            background-color:$Very_Dark_Desaturated_Blue;
-            border:none;
-            height:3.125em;
-            width:40.625rem;
-            border-radius:5px;
-            padding-left: 4.6875em;
-            outline: none;
-        }
+        
     }   
-}
-
-input[type="checkbox"]{
-    appearance: none;
-    -webkit-appearance:none;
-    margin-left: 1.5625em;
-    margin-right: 1.5625em;
-    border-style: solid;
-    border-color: $Very_Dark_Grayish_Blue;
-    border-width: 2px;
-    height:1.5625em;
-    width:1.5625em;
-    border-radius:5px;
-    cursor: pointer;
-    outline:none;
-    background:none;
-}
-
-input[type="checkbox"]:hover{
-    transition: 0.2s;
-    border-color: $Bright_Blue;
-    transform: scale(1.1);
-}
-
-input[type="checkbox"]:checked{
-    transition-duration:1s;
-    background:linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-    border-style: none;
-}
-
-button{
-    margin-left: 1.5625em;
-    margin-right: 1.5625em;
-    border-style: solid;
-    border-color: $Very_Dark_Grayish_Blue;
-    background: none;
-    border-width: 2px;
-    height:1.5625em;
-    width:1.5625em;
-    border-radius:20px;
-    cursor: pointer;
-    outline:none;
-    position: absolute;
-    top: 12em;
-}
-button:hover{
-    transition: 0.2s;
-    border-color: $Bright_Blue;
-    transform: scale(1.1);
-}
-
-button:active{
-    transition:0.5s;
-    background:linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-    border-style: none;
-}
-
-.lista-filho{
-    display: flex;
-    align-items: center;
-}
-
-.remove{
-    color: $Very_Dark_Grayish_Blue;
-    font-size:1.5em;
-    cursor: pointer;
-    float: right;
-}
-.remove:hover{
-    transition: 0.2s;
-    transform:scale(1.1);
-    color:$Bright_Blue;
 }
 
 footer{
@@ -156,14 +76,6 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 1em;
-
-    // input[type="radio"]{
-    //     appearance: none;
-    //     -webkit-appearance: none;
-    //     width:5em;
-    //     background-color:blue;
-    //     height:1em;
-    // }
 
     a{
         margin: 0 1em;

@@ -1,0 +1,43 @@
+button{
+    margin-left: 1.5625em;
+    margin-right: 1.5625em;
+    border-style: solid;
+    border-color: $Very_Dark_Grayish_Blue;
+    background: none;
+    border-width: 2px;
+    height:1.5625em;
+    width:1.5625em;
+    border-radius:20px;
+    cursor: pointer;
+    outline:none;
+    position: absolute;
+    top: 12em;
+}
+button:hover{
+    transition: 0.2s;
+    border-color: $Bright_Blue;
+    transform: scale(1.1);
+}
+
+button:active{
+    transition:0.5s;
+    background:linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    border-style: none;
+}
+
+.lista-filho{
+    display: flex;
+    align-items: center;
+}
+
+.remove{
+    color: $Very_Dark_Grayish_Blue;
+    font-size:1.5em;
+    cursor: pointer;
+    float: right;
+}
+.remove:hover{
+    transition: 0.2s;
+    transform:scale(1.1);
+    color:$Bright_Blue;
+}

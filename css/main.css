@@ -77,17 +77,55 @@
       justify-self: center;
 }
 
-.conteiner .text-div #input-task {
+footer {
   background-color: #25273c;
-  border: none;
-  height: 3.125em;
-  width: 40.625rem;
-  border-radius: 5px;
-  padding-left: 4.6875em;
-  outline: none;
+  margin-top: 0;
+  height: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
 }
 
-input[type="checkbox"] {
+footer a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #393a4c;
+}
+
+footer a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #3a7bfd;
+}
+
+footer .toggle {
+  color: white;
+}
+
+.credits {
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.credits a {
+  text-decoration: none;
+  color: #cacde8;
+}
+
+.credits a:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #3a7bfd;
+}
+
+.checkbox {
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
@@ -104,7 +142,7 @@ input[type="checkbox"] {
   background: none;
 }
 
-input[type="checkbox"]:hover {
+.checkbox:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-color: #3a7bfd;
@@ -112,12 +150,30 @@ input[type="checkbox"]:hover {
           transform: scale(1.1);
 }
 
-input[type="checkbox"]:checked {
+.checkbox:checked {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   background: -webkit-gradient(linear, left top, left bottom, from(#57ddff), to(#c058f3));
   background: linear-gradient(#57ddff, #c058f3);
   border-style: none;
+}
+
+.checkbox-checked {
+  border-style: none;
+}
+
+.invisivel {
+  display: none;
+}
+
+#input-task {
+  background-color: #25273c;
+  border: none;
+  height: 3.125em;
+  width: 40.625rem;
+  border-radius: 5px;
+  padding-left: 4.6875em;
+  outline: none;
 }
 
 button {
@@ -173,54 +229,6 @@ button:active {
   transition: 0.2s;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: #3a7bfd;
-}
-
-footer {
-  background-color: #25273c;
-  margin-top: 0;
-  height: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1em;
-}
-
-footer a {
-  margin: 0 1em;
-  text-decoration: none;
-  color: #393a4c;
-}
-
-footer a:hover {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: #3a7bfd;
-}
-
-footer .toggle {
-  color: white;
-}
-
-.credits {
-  width: 100%;
-  text-align: center;
-  margin-top: 2em;
-}
-
-.credits a {
-  text-decoration: none;
-  color: #cacde8;
-}
-
-.credits a:hover {
-  -webkit-transition: .2s;
-  transition: .2s;
   color: #3a7bfd;
 }
 /*# sourceMappingURL=main.css.map */
